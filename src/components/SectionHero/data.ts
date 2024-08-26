@@ -15,22 +15,22 @@ interface Hero2DataType {
 export const HERO2_DEMO_DATA: Hero2DataType[] = [
   {
     image: imageRightPng2,
-    heading: "Rao vặt Lâm Đồng",
-    subHeading: "Sàn giao dịch mua bán online 🔥",
+    heading: "Rao vặt",
+    subHeading: "Sàn mua bán online 🔥",
     btnText: "Mua bán",
     btnLink: "/",
   },
   {
     image: imageRightPng3,
-    heading: "Tiết kiệm thời gian của mỗi người",
-    subHeading: "Chỉ cần đăng bán, tìm kiếm và liên hệ 🔥",
+    heading: "Tiết kiệm",
+    subHeading: "Chỉ cần đăng bán🔥",
     btnText: "Rao vặt",
     btnLink: "/",
   },
   {
     image: imageRightPng,
-    heading: "Liên hệ 0944838788",
-    subHeading: "Hớp tác cùng phát triển 🔥",
+    heading: "0944838788",
+    subHeading: "Hớp tác 🔥",
     btnText: "Hợp tác",
     btnLink: "/",
   },

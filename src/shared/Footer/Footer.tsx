@@ -91,6 +91,12 @@ const Footer: React.FC = () => {
         </div>
         {widgetMenus.map(renderWidgetMenuItem)}
       </div>
+      <div className="container mt-5">
+        <hr />
+        <p className=" pt-5">
+          @ Bản quyền thuộc raovatlamdong.vn - Liên hệ - Tiến Dev - 0944848788
+        </p>
+      </div>
     </div>
   );
 };

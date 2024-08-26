@@ -11,10 +11,26 @@ export interface SocialsListProps {
 }
 
 const socialsDemo = [
-  { name: "Facebook", icon: facebook, href: "#" },
-  { name: "Twitter", icon: twitter, href: "#" },
-  { name: "Youtube", icon: youtube, href: "#" },
-  { name: "Telegram", icon: telegram, href: "#" },
+  {
+    name: "Facebook",
+    icon: facebook,
+    href: "https://www.facebook.com/tienpmath",
+  },
+  {
+    name: "Twitter",
+    icon: twitter,
+    href: "https://www.facebook.com/tienpmath",
+  },
+  {
+    name: "Youtube",
+    icon: youtube,
+    href: "https://www.facebook.com/tienpmath",
+  },
+  {
+    name: "Telegram",
+    icon: telegram,
+    href: "https://www.facebook.com/tienpmath",
+  },
 ];
 
 const SocialsList: FC<SocialsListProps> = ({

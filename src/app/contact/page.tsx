@@ -9,16 +9,16 @@ import SectionPromo1 from "@/components/SectionPromo1";
 
 const info = [
   {
-    title: "🗺 ADDRESS",
-    desc: "Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter",
+    title: "🗺 Địa chỉ",
+    desc: "01 Phù Đổng Thiên Vương, phường 8, thành phố Đà Lạt, Lâm Đồng",
   },
   {
     title: "💌 EMAIL",
-    desc: "nc.example@example.com",
+    desc: "tiendev88@gmail.com",
   },
   {
     title: "☎ PHONE",
-    desc: "000-123-456-7890",
+    desc: "0944838788",
   },
 ];
 
@@ -44,7 +44,7 @@ const PageContact = ({}) => {
               ))}
               <div>
                 <h3 className="uppercase font-semibold text-sm dark:text-neutral-200 tracking-wider">
-                  🌏 SOCIALS
+                  🌏 SOCIALS - Zalo 0944848788
                 </h3>
                 <SocialsList className="mt-2" />
               </div>
@@ -52,30 +52,26 @@ const PageContact = ({}) => {
             <div>
               <form className="grid grid-cols-1 gap-6" action="#" method="post">
                 <label className="block">
-                  <Label>Full name</Label>
+                  <Label>Họ và tên</Label>
 
                   <Input
-                    placeholder="Example Doe"
+                    placeholder="Nguyễn Văn X"
                     type="text"
                     className="mt-1"
                   />
                 </label>
                 <label className="block">
-                  <Label>Email address</Label>
+                  <Label>Email địa chỉ</Label>
 
-                  <Input
-                    type="email"
-                    placeholder="example@example.com"
-                    className="mt-1"
-                  />
+                  <Input type="email" placeholder="...." className="mt-1" />
                 </label>
                 <label className="block">
-                  <Label>Message</Label>
+                  <Label>Nội dung</Label>
 
                   <Textarea className="mt-1" rows={6} />
                 </label>
                 <div>
-                  <ButtonPrimary type="submit">Send Message</ButtonPrimary>
+                  <ButtonPrimary type="submit">Gửi</ButtonPrimary>
                 </div>
               </form>
             </div>
